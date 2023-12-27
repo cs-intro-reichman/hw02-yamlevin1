@@ -9,8 +9,6 @@ import java.util.Random;
  */
 public class OneOfEachStats {
 	public static void main (String[] args) {
-		int T = Integer.parseInt(args[0]);
-		int seed = Integer.parseInt(args[1]);
 		int userNum = Integer.parseInt(args[0]);
 		int seed = Integer.parseInt(args[1]);
 		int experimentsNum = 0;
