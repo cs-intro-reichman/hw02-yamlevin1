@@ -7,16 +7,16 @@ public class DamkaBoard {
 		int row = 0;
 		int astrisk = 0;
 		
-		//prints the pattern of the astrisks
-		while(row < userNum){
-			if(row % 2 ==  0){  //prints the row pattern of the astrisks depends if the row is even
-				while(astrisk < userNum){
+		//prints the pattern of the asterisks
+		while(row < userNum) {
+			if(row % 2 ==  0) {  //prints the row pattern of the asterisks depends if the row is even
+				while(astrisk < userNum) {
 					System.out.print("* ");
 					astrisk++;
 				}	
 			}
-			else{  //prints the row pattern of the astrisks depends if the row is not even
-				while(astrisk < userNum){
+			else {  //prints the row pattern of the asterisks depends if the row is not even
+				while(astrisk < userNum) {
 					System.out.print(" *");
 					astrisk++;
 				}

@@ -8,7 +8,7 @@ public class InOrder {
 		int lastNum = 0;
 		
 		//checks if the next random number is bigger then the last random number
-		do{
+		do {
 		System.out.println(randomNum);	
 		lastNum = randomNum;
 		randomNum = (int)(Math.random() * 10);	
