@@ -5,25 +5,25 @@ public class DamkaBoard {
 	public static void main(String[] args) {
 		int userNum = Integer.parseInt(args[0]);
 		int row = 0;
-		int astrisk = 0;
+		int asterisk = 0;
 		
 		//prints the pattern of the asterisks
 		while(row < userNum) {
 			if(row % 2 ==  0) {  //prints the row pattern of the asterisks depends if the row is even
-				while(astrisk < userNum) {
+				while(asterisk < userNum) {
 					System.out.print("* ");
-					astrisk++;
+					asterisk++;
 				}	
 			}
 			else {  //prints the row pattern of the asterisks depends if the row is not even
-				while(astrisk < userNum) {
+				while(asterisk < userNum) {
 					System.out.print(" *");
-					astrisk++;
+					asterisk++;
 				}
 			}
 			System.out.println();
 			row++;
-			astrisk = 0;
+			asterisk = 0;
 		}
 	}
 }
