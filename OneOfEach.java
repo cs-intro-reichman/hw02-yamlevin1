@@ -10,13 +10,14 @@ public class OneOfEach {
 		boolean isBoy = false;
 		int howManyChildren = 0;
 		
+		//checks until there is a boy and a girl in the family
 		while((isGirl && isBoy) != true) {
 			double randomGender = Math.random();
-			if(randomGender < 0.5){
+			if(randomGender < 0.5){  //the chance of getting a girl [0,0.5).
 				isGirl = true;
 				str += "g ";
 			}
-			else{
+			else{  //the chance of getting a boy [0.5,1).
 				isBoy = true;
 				str += "b ";
 			}

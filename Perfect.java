@@ -8,14 +8,14 @@ public class Perfect {
 		String str = "";
 		
 		for(int i = 2; i < userNum; i++) {
-			if(userNum % i == 0) { //cheking the divisors of the given number
-				sum += i; //cheking the sum of the dividors
+			if(userNum % i == 0) { //cheks the divisors of the given number
+				sum += i; //calculates the sum of the dividors
 				String fromIntToString = Integer.toString(i);
-				str = str + " + " + fromIntToString; //saving the dividors as a string
+				str = str + " + " + fromIntToString; //saves the dividors as a string
 			}
 		}
 		
-		//cheking if the number is perfect
+		//cheks if the number is perfect
 		if((sum + 1) == userNum) {
 			System.out.println(userNum + " is a perfect number since " + userNum + " = 1" + str);
 		}

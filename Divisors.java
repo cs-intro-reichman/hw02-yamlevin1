@@ -6,7 +6,7 @@ public class Divisors {
 		//number given by the user
 		int userNum = Integer.parseInt(args[0]);
 		
-		//cheking the divisors of the given number
+		//cheks the divisors of the given number and prints them
 		for(int i = 1; i <= userNum; i++) {
 			if(userNum % i == 0) {
 				System.out.println(i);

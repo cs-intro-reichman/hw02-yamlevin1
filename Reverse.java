@@ -15,7 +15,7 @@ public class Reverse {
 		
 		int middleCharLocation = 0;
 		
-		//finding the middle char location dependence if the string length is even or odd
+		//finds the middle char location dependence if the string length is even or odd
 		if(userString.length() % 2 == 0) {
 			middleCharLocation = (userString.length() / 2) - 1;
 		}
