@@ -7,10 +7,11 @@ public class InOrder {
 		int randomNum = (int)(Math.random() * 10);
 		int lastNum = 0;
 		
-		while(lastNum <= randomNum){
-			System.out.println(randomNum);
-			lastNum = randomNum;
-			randomNum = (int)(Math.random() * 10);		
-		}	
+		do{
+		System.out.println(randomNum);	
+		lastNum = randomNum;
+		randomNum = (int)(Math.random() * 10);	
+		}
+		while(lastNum <= randomNum);
 	}
 }
